@@ -31,7 +31,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/XplorationTechnologies/react-custom-hooks.git"
+    "url": "git+https://github.com/XplorationTechnologies/react-custom-hooks.git"
   },
   "homepage": "https://github.com/XplorationTechnologies/react-custom-hooks#readme",
   "bugs": {
