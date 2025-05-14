@@ -34,7 +34,7 @@ import {
 Hook untuk menyalin teks ke clipboard dan memberikan umpan balik berupa status
 `copied`.
 
-#### ✅ Contoh Penggunaan
+#### ✅ Contoh Implementasi useClipboard
 
 ```tsx
 const { copy, copied } = useClipboard();
@@ -55,7 +55,7 @@ const { copy, copied } = useClipboard();
 Hook untuk memantau ukuran jendela browser secara real-time dan memberikan
 informasi terkait breakpoint.
 
-#### ✅ Contoh Penggunaan
+#### ✅ Contoh Implementasi useWindowResize
 
 ```tsx
 const { width, height, breakpoint } = useWindowResize();
