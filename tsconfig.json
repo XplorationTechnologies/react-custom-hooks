@@ -5,13 +5,14 @@
     "lib": ["ESNext", "DOM"],
     "jsx": "react-jsx",
     "moduleResolution": "node",
-    "types": ["vitest", "jsdom"],
+    "types": ["vitest"],
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "declaration": true,
-    "declarationDir": "dist/types",
-    "emitDeclarationOnly": false
+    "skipLibCheck": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["src/__tests__/**/*"]
 }
