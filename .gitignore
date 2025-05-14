@@ -1,0 +1,16 @@
+# Node
+node_modules
+dist
+
+# IDE/Editor
+.vscode
+.idea
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
+
+# Testing
+coverage
